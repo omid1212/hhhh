@@ -110,7 +110,9 @@ local function telegram_help()
   end
   text = text..'\n'..'There are '..i..' plugins help available.'
   text = text..'\n'..'Write "!help [plugin name]" or "!help [plugin number]" for more info.'
-  text = text..'\n'..'Or "!help all" to show all info.'
+  text = text..'\n'..'Or "!help all" to show all info. \n'
+  text = text..'\n'..'Creator: @WilSoN_DeVeLoPeR (bot ba Zac Nist)'
+  text = text..'\n'..'Join Us For Create Your Group. 2000Tomans By Per Group In Month.'
   return text
 end
  
