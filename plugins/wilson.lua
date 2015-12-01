@@ -33,10 +33,10 @@ local function telegram_help()
       name = nil
     else
     
-    text = text..'\n'..'WilSoN Is The Best Of Developers.'
+    text = text..'\n'..'Creed is Dead for ever .'
     end
   end
-  text = text..'\n'..'WilSoN Is The Best Of Developers.'
+  text = text..'\n'..'Creed is Dead for ever.'
   return text
 end
  
@@ -64,9 +64,9 @@ local function run(msg, matches)
   else
       requester = "user"
   end
-  if matches[1] == "wilson" then
+  if matches[1] == "Creed" then
     return telegram_help()
-  elseif matches[1] == "wilson" then
+  elseif matches[1] == "Creed" then
     return help_all(requester)
   else
     local text = ""
@@ -86,12 +86,12 @@ return {
   description = "For Funny.",
   
   patterns = {
-    "^wilson$",
-    "^WilSoN$",
-    "^wilson (.+)"
+    "^Creed$",
+    "^CreeD$",
+    "^creed_is_dead (.+)"
   },
   usage = {
-    "!wilson: About Creator. (Use With Out \'!\')",
+    "!Creed: @creed's name is arsalan , he have 3 Guards with 700 Members and this bot is made by him . (Use With Out \'!\')",
   },
   run = run
 }
